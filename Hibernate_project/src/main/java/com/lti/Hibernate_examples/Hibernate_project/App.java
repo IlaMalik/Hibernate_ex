@@ -19,9 +19,6 @@ public class App
     	employee.setBranch("Noida");
     	session.beginTransaction();
     	session.save(employee);
-    	session.getTransaction().commit();
-        
-    	
-    	
+    	session.getTransaction().commit();	
     }
 }
