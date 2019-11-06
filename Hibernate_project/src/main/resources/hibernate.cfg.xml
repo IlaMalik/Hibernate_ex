@@ -15,10 +15,10 @@
       <!-- JDBC connection pool -->
       <property name = "connection.pool_size">1</property> 
       
-      <mapping resource="com/lti/Hibernate_examples/Hibernate_project/Employee.hbm.xml"
-      
        <!-- SQL dialect-->
-      <property name = "dialect">org.hibernate.dialect.Oracle10gDialect</property> 
+      <property name = "dialect">org.hibernate.dialect.Oracle10gDialect</property>
+      
+      <mapping resource="com/lti/Hibernate_examples/Hibernate_project/Employee.hbm.xml"/> 
    </session-factory> 
 </hibernate-configuration> 
 
